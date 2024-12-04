@@ -1,0 +1,100 @@
+.conteiner {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formulario input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.formulario button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.formulario button:hover {
+    background-color: #45a049;
+}
+
+.formulario button:active {
+    background-color: #8e8e8e;
+    transform: scale(0.98);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.lista ul {
+    list-style: none;
+    padding: 0;
+}
+
+.lista li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+
+#final {
+    background-color: #4CAF50;
+}
+
+.lista li button {
+    padding: 5px 10px;
+    background-color: #f04e4e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 3px;
+    max-width: 100px;
+}
+
+.lista li button:hover {
+    background-color: #870303;
+}
+
+
+
+.lista li button:active {
+    background-color: #8e8e8e;
+    transform: scale(0.98);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.lista li p {
+    margin: 0;
+    max-width: 50px;
+}
+
+.finalizado {
+    text-decoration: line-through;
+}
+
+.lista li button, .lista li p {
+    flex: 1;
+    text-align: center;
+}
+
+
+
+
